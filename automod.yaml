@@ -1,0 +1,41 @@
+# user age requirements
+type: submission
+author:
+    satisfy_any_threshold: false
+    account_age: "< 7"
+action: remove
+modmail: removed a submission from an account < 7 days old from /u/{{author}}  Please investigate.  
+# make a comment
+message: |
+    This post has been removed for the following reason:
+
+    Your account is less than 7 days old
+
+    Please wait for moderator review and approval
+
+---
+# user karma requirements
+type: submission
+author:
+    satisfy_any_threshold: false
+    combined_karma: "< 10"
+action: remove
+modmail: removed a submission from an account with < 10 combined karma from /u/{{author}}  Please investigate.  
+# make a comment
+message: |
+    This post has been removed for the following reason:
+
+    Your account have less than 10 combined karma
+
+    Please wait for moderator review and approval
+
+---
+# lolice memes
+type: comment
+body (includes-word): ["lolice", "FBI"]
+action: remove
+modmail: removed a lolice meme from /u/{{author}}  Please investigate.
+comment: |
+    This post has been removed for the following reason:
+
+    Rule 5: lolice and FBI memes are considered low quality
