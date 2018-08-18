@@ -1,0 +1,2 @@
+# automoderator
+Automod config
