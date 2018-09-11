@@ -32,7 +32,18 @@ message: |
 ---
 # lolice memes
 type: comment
-body (includes-word): ["lolice", "FBI"]
+body (includes-word): ["lolice", "FBI", "police", "arrest", "arrested", "KGB"]
+action: remove
+modmail: removed a lolice meme from /u/{{author}}  Please investigate.
+comment: |
+    This post has been removed for the following reason:
+
+    Rule 5: lolice and FBI memes are considered low quality
+
+---
+# lolice memes
+type: submission
+title (includes-word): ["lolice", "FBI", "police", "arrest", "arrested", "KGB"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
