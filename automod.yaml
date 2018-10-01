@@ -32,7 +32,7 @@ message: |
 ---
 # lolice memes
 type: comment
-body (includes-word): ["lolice", "FBI", "police", "arrest", "arrested", "KGB", "officer", "jail", "prison"]
+body (includes-word): ["lolice", "FBI", "police", "arrest", "arrested", "KGB", "officer", "jail", "prison", "officer"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
@@ -40,12 +40,12 @@ comment: |
 
     Rule 5: lolice and FBI memes are considered low quality
 
-    If you believe this was a mistake (automod is quite aggressive), please message the mods using the link below
+    If you believe this was a mistake (automod is quite aggressive), please wait for moderator review. Every removal by automod is double-checked by the mods and we will restore it if it's appropriate
 
 ---
 # lolice memes
 type: submission
-title (includes-word): ["lolice", "FBI", "police", "arrest", "arrested", "KGB", "officer", "jail", "prison"]
+title (includes-word): ["lolice", "FBI", "police", "arrest", "arrested", "KGB", "officer", "jail", "prison", "officer"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
@@ -53,4 +53,4 @@ comment: |
 
     Rule 5: lolice and FBI memes are considered low quality
 
-    If you believe this was a mistake (automod is quite aggressive), please message the mods using the link below
+    If you believe this was a mistake (automod is quite aggressive), please wait for moderator review. Every removal by automod is double-checked by the mods and we will restore it if it's appropriate
