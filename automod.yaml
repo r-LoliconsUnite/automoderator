@@ -32,7 +32,7 @@ message: |
 ---
 # lolice memes
 type: comment
-body (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer"]
+body (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
@@ -45,7 +45,7 @@ comment: |
 ---
 # lolice memes
 type: submission
-title (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer"]
+title (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
@@ -58,7 +58,7 @@ comment: |
 ---
 # lolice memes
 type: text submission
-body (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer"]
+body (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
