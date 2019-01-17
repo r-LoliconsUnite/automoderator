@@ -32,7 +32,7 @@ message: |
 ---
 # lolice memes
 type: comment
-body (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I"]
+body (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I", "lolitary"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
@@ -45,7 +45,7 @@ comment: |
 ---
 # lolice memes
 type: submission
-title (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I"]
+title (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I", "lolitary"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
@@ -58,7 +58,7 @@ comment: |
 ---
 # lolice memes
 type: text submission
-body (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I"]
+body (includes-word): ["lolice", "FBI", "police", "KGB", "officer", "jail", "prison", "officer", "F.B.I", "lolitary"]
 action: remove
 modmail: removed a lolice meme from /u/{{author}}  Please investigate.
 comment: |
@@ -67,3 +67,38 @@ comment: |
     Rule 5: lolice and FBI memes are considered low quality
 
     If you believe this was a mistake (automod is quite aggressive), please wait for moderator review. Every removal by automod is double-checked by the mods and we will restore it if it's appropriate
+
+---
+# New Image Post from Unapproved Submitter
+type: link submission
+author:
+    is_contributor: false
+    is_moderator: false
+modmail_subject: "New Image Post notification ({{author}}: {{title}})"
+modmail: |
+    There is a new Image Post in /r/{{subreddit}}
+
+    Image: {{url}}
+
+    Link: {{permalink}}
+
+    Title: {{title}}
+
+    User: {{author}}
+
+---
+# New Text Post from Unapproved Submitter
+type: text submission
+author:
+    is_contributor: false
+    is_moderator: false
+modmail_subject: "New Text Post notification ({{author}}: {{title}})"
+modmail: |
+    There is a new Text Post in /r/{{subreddit}}
+
+    Title: {{title}}
+
+    Link: {{permalink}}
+
+    User: {{author}}
+
